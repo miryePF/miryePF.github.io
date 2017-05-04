@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<meta name="keywords"	content="word, word, word" />
+	<meta name="description"	content="paragraph" />
+	<link rel="stylesheet" href="../css/src/main.css">
+	<link rel="stylesheet" href="../css/bin/font.css">
+	<link rel="stylesheet" href="../fontAwesome/css/font-awesome.min.css">
+	<script src="../js/jquery/jquery-3.2.1.min.js"></script><!--http://code.jquery.com-->
+	<script src="../js/jquery/jquery-ui.min.js"></script>
+
+	<title>childcare_main</title>
+	
+</head>
+
+<body>
+<header id="header">
+	<div id="headBox">
+		<h1><a href="main.html"><span class="hidden">logo</span></a></h1>
+		<div id="unb">
+			<form action="#" method="post">
+				<fieldset>
+					<legend class="hidden">언어선택 및 검색창입니다.</legend>
+					<select name="dropBox" id="lang">
+						<option value="">한국어</option>
+						<option value="">영어</option>
+						<option value="">중국어</option>
+						<option value="">일본어</option>
+					</select>
+					<label for="search" class="hidden">검색창입니다.</label>
+					<input type="search" id="search" name="search" value="">
+					<label for="search_img" class="hidden">검색버튼입니다.</label>
+					<input type="image" src="../img/icon/search.png" id="search_img" name="search" alt="검색사진">
+				</fieldset>
+			</form>
+		</div><!--// #unb-->
+	</div><!--// #headBox-->
+	<div class="header_gnb">
+		<ul id="gnb">
+			<li><a href="sub_01.html">어린이집</a>
+				<ul class="gnb_menu">
+					<li><a href="#">어린이집 운영관리</a>
+					</li>
+					<li><a href="#">어린이집 이용정보</a></li>
+					<li><a href="#">어린이집 지원사업</a></li>
+					<li><a href="#">보육교직원 상담</a></li>
+					<li><a href="#">어린이집 자료실</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="sub_02.html">가정양육</a>
+				<ul class="gnb_menu">
+					<li><a href="#">양육정보</a></li>
+					<li><a href="#">맞춤형 부모교육</a></li>
+					<li><a href="#">맞춤형 양육서비스</a></li>
+					<li><a href="#">열린부모 참여지원</a></li>
+					<li><a href="#">부모교육 자료실</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="sub_03.html">나눔정보</a>
+				<ul class="gnb_menu">
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">인력뱅크</a></li>
+					<li><a href="#">보육뉴스</a></li>
+					<li><a href="#">센터소식</a></li>
+					<li><a href="#">자료실</a></li>
+					<li><a href="#">행사 / 교육</a></li>
+					<li><a href="#">설문조사</a></li>
+				</ul>
+			</li>
+				
+			<li><a href="sub_04.html">센터소개</a>
+				<ul class="gnb_menu">
+					<li><a href="#">인사말</a></li>
+					<li><a href="#">비전과 미션</a></li>
+					<li><a href="#">연혁</a></li>
+					<li><a href="#">전국센터현황</a></li>
+					<li><a href="#">홍보영상</a></li>
+					<li><a href="#">관련사이트</a></li>
+					<li><a href="#">찾아오는 길</a></li>
+				</ul>
+			</li>
+		</ul><!--// #gnb-->
+	</div><!--// .header_gnb-->
+</header>
+<section id="content">
+	<div id="video_box">
+		<div id="video_tag">
+			<video autoplay loop>
+				<source src="../img/main/videoplayback.mp4">
+			</video>
+		</div><!--// #video_tag-->
+		<div id="img_link">
+			<div class="img_link_box">
+				<a href="#">
+					<ul class="img_on_1">
+						<li>우리들의 보육이야기<br>
+							<span>공모전 결과발표</span>
+						</li>
+						<li class="more">more
+								<span><img src="../img/icon/direction.png" alt=""></span>
+						</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+						<ul class="img_on_2">
+							<li>3~5세 연령별<br>
+							누리과정 담당교사<br>
+							<span>2017년 4월 연수안내</span>						
+							</li>
+							<li class="more">more
+									<span><img src="../img/icon/direction.png" alt=""></span>
+							</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+					<ul class="img_on_3">
+						<li>육아로 지친 엄마들,<br>
+							아이에게 짜증날때<br>
+							<span>'나쁜엄마' 자책</span>
+						</li>
+							<li class="more">more
+									<span><img src="../img/icon/direction.png" alt=""></span>
+							</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+					<ul class="img_on_4">
+						<li>어린이, 청소년<br>B형 인풀루엔자 감염주의 </li>
+						<li class="more">more
+								<span><img src="../img/icon/direction.png" alt=""></span>
+						</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+						<ul class="img_on_5">
+							<li>프랑스의 교육격차<br>현황 및 해소방안</li>
+							<li class="more">more
+									<span><img src="../img/icon/direction.png" alt=""></span>
+							</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+						<ul class="img_on_6">
+							<li><span>[보건복지부]</span><br>
+							어린이집 등하원시간<br>함께 정해요</li>
+							<li class="more">more
+									<span><img src="../img/icon/direction.png" alt=""></span>
+							</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+						<ul class="img_on_7">
+							<li><span>아이에게 제대로</span><br>칭찬해 주는 방법</li>
+							<li class="more">more
+								<span><img src="../img/icon/direction.png" alt=""></span>
+							</li>
+					</ul>
+				</a>
+				
+				<a href="#">
+						<ul class="img_on_8">
+							<li>우리아이 봄철 알레르기<br>예방과 관리법</li>
+							<li class="more">more
+								<span><img src="../img/icon/direction.png" alt=""></span>
+							</li>
+					</ul>
+				</a>
+			</div><!--// .img_link_box-->
+			<div class="img_link_btn">
+				<button type="button" class="prev"><img src="../img/icon/prev.png" alt="이전"></button>
+				<button type="button"	class="stop"><img src="../img/icon/stop.png" alt="정지"></button>
+				<button type="button"	class="play"><img src="../img/icon/play.png" alt="재생"></button>
+				<button type="button"	class="next"><img src="../img/icon/next.png" alt="다음"></button>
+			</div><!--// .img_link_btn-->
+		</div><!--// #img_link-->
+	</div><!--// #video_box-->
+	<div class="about_info">
+		<div id="news">
+			<h3>NEWS</h3>
+			<ol>
+				<li class="news_tit"><a href="#news_01">공지</a></li>
+				<li class="news_tit"><a href="#news_02">뉴스</a></li>
+				<li class="news_tit"><a href="#news_03">소식</a></li>
+			</ol>
+			<ul class="news_p">
+				<li>
+					<span class="tit_name">공지</span>
+					<a href="#">공지사항 입니다.</a>
+					<span class="daily">2017-04-01</span>
+				</li>
+				<li>
+					<span class="tit_name">공지</span>
+					<a href="#">공지사항 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">공지</span>
+					<a href="#">공지사항 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">공지</span>
+					<a href="#">공지사항 입니다.</a>
+					<span class="daily">2017-03-26</span>
+				</li>
+				<li>
+					<span class="tit_name">공지</span>
+					<a href="#">공지사항 입니다.</a>
+					<span class="daily">2017-03-25</span>
+				</li>
+			</ul>
+			<ul class="news_p">
+				<li>
+					<span class="tit_name">뉴스</span>
+					<a href="#">뉴스 입니다.</a>
+					<span class="daily">2017-04-01</span>
+				</li>
+				<li>
+					<span class="tit_name">뉴스</span>
+					<a href="#">뉴스 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">뉴스</span>
+					<a href="#">뉴스 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">뉴스</span>
+					<a href="#">뉴스 입니다.</a>
+					<span class="daily">2017-03-26</span>
+				</li>
+				<li>
+					<span class="tit_name">뉴스</span>
+					<a href="#">뉴스 입니다.</a>
+					<span class="daily">2017-03-25</span>
+				</li>
+			</ul>
+			<ul class="news_p">
+				<li>
+					<span class="tit_name">소식</span>
+					<a href="#">소식 입니다.</a>
+					<span class="daily">2017-04-01</span>
+				</li>
+				<li>
+					<span class="tit_name">소식</span>
+					<a href="#">소식 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">소식</span>
+					<a href="#">소식 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">소식</span>
+					<a href="#">소식 입니다.</a>
+					<span class="daily">2017-03-26</span>
+				</li>
+				<li>
+					<span class="tit_name">소식</span>
+					<a href="#">소식 입니다.</a>
+					<span class="daily">2017-03-25</span>
+				</li>
+			</ul>
+		</div><!--// #news-->
+		<div id="info">
+			<h3>INFO</h3>
+			<ol>
+				<li class="info_tit"><a href="#info_01">채용</a></li>
+				<li class="info_tit"><a href="#info_02">자료</a></li>
+				<li class="info_tit"><a href="#info_03">행사</a></li>
+			</ol>
+			<ul class="info_p">
+				<li>
+					<span class="tit_name">채용</span>
+					<a href="#">채용공고 입니다.</a>
+					<span class="daily">2017-04-01</span>
+				</li>
+				<li>
+					<span class="tit_name">채용</span>
+					<a href="#">채용공고 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">채용</span>
+					<a href="#">채용공고 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">채용</span>
+					<a href="#">채용공고 입니다.</a>
+					<span class="daily">2017-03-26</span>
+				</li>
+				<li>
+					<span class="tit_name">채용</span>
+					<a href="#">채용공고 입니다.</a>
+					<span class="daily">2017-03-25</span>
+				</li>
+			</ul>
+			<ul class="info_p">
+				<li>
+					<span class="tit_name">자료</span>
+					<a href="#">자료 입니다.</a>
+					<span class="daily">2017-04-01</span>
+				</li>
+				<li>
+					<span class="tit_name">자료</span>
+					<a href="#">자료 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">자료</span>
+					<a href="#">자료 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">자료</span>
+					<a href="#">자료 입니다.</a>
+					<span class="daily">2017-03-26</span>
+				</li>
+				<li>
+					<span class="tit_name">자료</span>
+					<a href="#">자료 입니다.</a>
+					<span class="daily">2017-03-25</span>
+				</li>
+			</ul>
+			<ul class="info_p">
+				<li>
+					<span class="tit_name">행사</span>
+					<a href="#">행사정보 입니다.</a>
+					<span class="daily">2017-04-01</span>
+				</li>
+				<li>
+					<span class="tit_name">행사</span>
+					<a href="#">행사정보 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">행사</span>
+					<a href="#">행사정보 입니다.</a>
+					<span class="daily">2017-03-28</span>
+				</li>
+				<li>
+					<span class="tit_name">행사</span>
+					<a href="#">행사정보 입니다.</a>
+					<span class="daily">2017-03-26</span>
+				</li>
+				<li>
+					<span class="tit_name">행사</span>
+					<a href="#">행사정보 입니다.</a>
+					<span class="daily">2017-03-25</span>
+				</li>
+			</ul>
+		</div><!--// #info-->
+		<div id="pr_movie">
+			<h3>PR<br>MOVIE</h3>
+			<a href="#"><img src="../img/main/pr_movie.png" alt="홍보영상"></a>
+		</div><!--// #pr_movie-->
+	</div><!--// .about_info-->
+	<div id="about_site">
+		<div><a href="#">
+				<div>
+					<h3>E-러닝</h3>
+					<p>온라인 교육 수강<br>및 집합교육 신청</p>
+				</div>
+				<div class="about_img"><img src="../img/main/about_site_1.png" alt=""></div>
+				<div class="direction"><img src="../img/icon/black_direction.png" alt=""></div>
+			</a></div>
+		<div><a href="#">
+				<div>
+					<h3>보육과정이해</h3>
+					<p>보육과정웹사이트(NCCW)<br>보육과정 연구물 및 자료</p>
+				</div>
+				<div class="about_img"><img src="../img/main/about_site_2.png" alt=""></div>
+				<div class="direction"><img src="../img/icon/black_direction.png" alt=""></div>
+			</a></div>
+		<div><a href="#">
+				<div>
+					<h3>교육(행사)일정</h3>
+					<p>육아종합지원센터<br>교육 및 행사 일정</p>
+				</div>
+				<div class="about_img"><img src="../img/main/about_site_3.png" alt=""></div>
+				<div class="direction"><img src="../img/icon/black_direction.png" alt=""></div>
+			</a></div>
+		<div><a href="#">
+				<div>
+					<h3>사업통계</h3>
+					<p>전국센터<br>사업별 통계</p>
+				</div>
+				<div class="about_img"><img src="../img/main/about_site_4.png" alt=""></div>
+				<div class="direction"><img src="../img/icon/black_direction.png" alt=""></div>
+			</a></div>
+		<div><a href="#">
+				<div>
+					<h3>발간자료실</h3>
+					<p>육아종합지원센터<br>발간자료실</p>
+				</div>
+				<div class="about_img"><img src="../img/main/about_site_5.png" alt=""></div>
+				<div class="direction"><img src="../img/icon/black_direction.png" alt=""></div>
+			</a></div>
+		<div><a href="#">
+				<div>
+					<h3>실적관리시스템</h3>
+					<p>가정양육, 어린이집<br>지원사업 실적 등록</p>
+				</div>
+				<div class="about_img"><img src="../img/main/about_site_6.png" alt=""></div>
+				<div class="direction"><img src="../img/icon/black_direction.png" alt=""></div>
+			</a></div>
+	</div><!--// #about_site-->
+</section>
+
+<footer id="footer">
+	<div id="footBox">
+		<ul id="fnb">
+			<li><a href="#">이용안내</a></li>
+			<li><a href="#">개인정보처리방침</a></li>
+			<li><a href="#">자주하는질문</a></li>
+			<li><a href="#">보안프로그램설치</a></li>
+			<li><a href="#">뷰어다운로드</a></li>
+		</ul>
+		<address id="company_info">
+			<p class="add"> 주소 : 서울특별시 용산구 청파로 345 주연빌딩 3층 중앙육아종합지원센터(04303)</p>
+			<p class="tel"> <strong>Tel</strong> : 02. 701. 0431</p>
+			<p class="fax"> <strong>Fax</strong> : 02. 6901. 0221</p>
+			<p id="copy">&copy; 2014 Central Support Center For Childcare.All Right Reserved.</p>
+		</address>
+	</div>
+</footer>
+
+
+<!--jquery-->
+	<script>
+(function($){ 
+			// .img_link_box 자동 슬라이드
+				var imgBox=$('.img_link_box');
+				var imgFirst=imgBox.children('a').first();
+				var imgLast=imgBox.children('a').last();
+				var timed= 500;
+				imgBox.prepend(imgLast);
+				imgBox.css({marginLeft:-20 + '%'});
+			// 왼쪽 버튼 ----
+			var prev=$('.prev');
+			prev.on('click', function(e){
+				imgLast=imgBox.children('a').last();
+				e.preventDefault();
+				
+				imgBox.stop().animate({marginLeft:0}, timed, function(){
+					imgBox.prepend(imgLast);
+					imgBox.css({marginLeft:-20 + '%'});
+				});
+			});
+			// 오른 버튼 ----
+			var next=$('.next');
+			next.on('click', function(e){
+				e.preventDefault();
+				
+				imgFirst=imgBox.children('a').first();
+				imgBox.stop().animate({marginLeft: -40+ '%'}, timed, function(){
+					imgBox.append(imgFirst);
+					imgBox.css({marginLeft:-20 + '%'});
+				});
+			});
+		// 	
+			function auto(){
+					imgFirst=imgBox.children('a').first();
+					imgBox.stop().animate({marginLeft: -40+ '%'}, timed, function(){
+					imgBox.append(imgFirst);
+					imgBox.css({marginLeft:-20 + '%'});
+				});
+			}
+			
+			
+			var interTime = null;
+			
+			var  autoS = function(){
+				 interTime = setInterval(auto, timed*5);
+				//return slideTime;
+			};
+			autoS();
+			
+		
+			
+			var stopS = function(){
+				clearInterval(interTime);
+			};
+			
+			$('.stop').on({click:stopS});
+			$('.play').on({click:autoS});
+			
+			$('#img_link').on({mouseenter:stopS, mouseleave:autoS});
+			
+	// --------------------------------------------------
+			//.news 탭메뉴
+			var news = $('.news_tit');
+			var newsC = $('.news_p');
+			
+			news.on('click', function(e){
+				e.preventDefault();
+				
+				var $this = $(this);
+				var indexT = $this.index();
+				var cT = newsC.eq(indexT);
+				console.log(indexT);
+				
+				news.find('a').css({color:'#373737', borderBottom:'none'});
+				newsC.css({display:'none'});
+				
+				if(cT.css({display:'block'}) === 'block'){
+					news.eq(indexT).find('a').css({color:'#005fca', borderBottom:'2px solid #005fca'});
+					cT.css({display:'block'});
+					 }else{cT.css({display:'block'});
+					news.eq(indexT).find('a').css({color:'#005fca', borderBottom:'2px solid #005fca'});			
+					}
+			});
+			
+			//.info 탭메뉴
+			var info = $('.info_tit');
+			var infoC = $('.info_p');
+			
+			info.on('click', function(e){
+				e.preventDefault();
+				
+				var $this = $(this);
+				var indexT = $this.index();
+				var cT = infoC.eq(indexT);
+				console.log(indexT);
+				info.find('a').css({color:'#373737', borderBottom:'none'});
+				infoC.css({display:'none'});
+				if(cT.css({display:'block'}) === 'block'){
+						cT.css({display:'block'});
+					 info.eq(indexT).find('a').css({color:'#005fca', borderBottom:'2px solid #005fca'});
+				}else{cT.css({display:'block'});
+							info.eq(indexT).find('a').css({color:'#005fca', borderBottom:'2px solid #005fca'});}
+			});
+		})(this.jQuery);
+</script>
+</body>
+</html>

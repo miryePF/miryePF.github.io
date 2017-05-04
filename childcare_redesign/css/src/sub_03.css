@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* base.css */
+/* ir기법적용 */
+.hidden { width: 0; height: 0; display: block; overflow: hidden; }
+
+.hidden_wrap a { width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-position: 0 0; }
+
+.hidden_wrap a > span { width: 0; height: 0; display: block; overflow: hidden; }
+
+/* clear:both 적용 */
+.clearfix:after, .cf:after { content: " "; display: block; clear: both; }
+
+/* table:sett */
+table { border: 2px solid #575757; border-left: 0; border-right: 0; }
+
+thead { background-color: #cfcfcf; }
+
+tbody td { border-top: 1px solid #575757; vertical-align: middle; text-indent: 3px; }
+
+tbody th { background-color: #cfcfcf; }
+
+/* nav last, first margin */
+.nav_fr li:first-child, .nav_la li:last-child { margin: 0; padding: 0; border: 0; }
+
+/* reset.css */
+/* basic */
+html, body { width: 100%; height: 100%; }
+
+html, body, h1, h2, h3, h4, h5, h6, p, div, form, fieldset, table, tr, td, th, thead, tbody, tfoot, img, ul, ol, li, dt, dd, dl { margin: 0; padding: 0; border: 0; outline: 0; color: #373737; font-size: 100%; line-height: 1.2; font-family: arial,'Nanum Gothic', sans-serif,'Hanna', fantasy; }
+
+/* set_1 */
+ul, ol, li { list-style: none; }
+
+a { text-decoration: none; color: inherit; }
+
+a:hover { color: #373737; }
+
+table, th, td { border-spacing: 0; border-collapse: collapse; }
+
+/* set_2: form */
+input, select, textarea { box-sizing: border-box; border: 1px solid #ccc; }
+
+button, input[type="button"], input[type="submit"], input[type="reset"] { border: 0; cursor: pointer; }
+
+/* focus */
+a:focus, input:focus, button:focus, textarea:focus, select:focus { outline: 3px solid #005fca; outline-offset: 5px; position: relative; z-index: 1000; }
+
+/* html5 */
+header, article, aside, footer, nav, figure, main, srcset { display: block; }
+
+/*header*/
+#header ul { font-family: 'Hanna', fantasy; }
+
+#header li { font-family: 'Hanna', fantasy; }
+
+/*#lnb_area*/
+#main_icon > h2 { font-family: 'Hanna', fantasy; }
+
+#lnb_box li { font-family: 'Hanna', fantasy; }
+
+h2 { font-size: 2.3em; color: #fff; }
+
+/* base.css */
+/* ir기법적용 */
+.hidden { width: 0; height: 0; display: block; overflow: hidden; }
+
+.hidden_wrap a { width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-position: 0 0; }
+
+.hidden_wrap a > span { width: 0; height: 0; display: block; overflow: hidden; }
+
+/* clear:both 적용 */
+.clearfix:after, .cf:after { content: " "; display: block; clear: both; }
+
+/* table:sett */
+table { border: 2px solid #575757; border-left: 0; border-right: 0; }
+
+thead { background-color: #cfcfcf; }
+
+tbody td { border-top: 1px solid #575757; vertical-align: middle; text-indent: 3px; }
+
+tbody th { background-color: #cfcfcf; }
+
+/* nav last, first margin */
+.nav_fr li:first-child, .nav_la li:last-child { margin: 0; padding: 0; border: 0; }
+
+/* reset.css */
+/* basic */
+html, body { width: 100%; height: 100%; }
+
+html, body, h1, h2, h3, h4, h5, h6, p, div, form, fieldset, table, tr, td, th, thead, tbody, tfoot, img, ul, ol, li, dt, dd, dl { margin: 0; padding: 0; border: 0; outline: 0; color: #373737; font-size: 100%; line-height: 1.2; font-family: arial,'Nanum Gothic', sans-serif,'Hanna', fantasy; }
+
+/* set_1 */
+ul, ol, li { list-style: none; }
+
+a { text-decoration: none; color: inherit; }
+
+a:hover { color: #373737; }
+
+table, th, td { border-spacing: 0; border-collapse: collapse; }
+
+/* set_2: form */
+input, select, textarea { box-sizing: border-box; border: 1px solid #ccc; }
+
+button, input[type="button"], input[type="submit"], input[type="reset"] { border: 0; cursor: pointer; }
+
+/* focus */
+a:focus, input:focus, button:focus, textarea:focus, select:focus { outline: 3px solid #005fca; outline-offset: 5px; position: relative; z-index: 1000; }
+
+/* html5 */
+header, article, aside, footer, nav, figure, main, srcset { display: block; }
+
+/*header*/
+#header ul { font-family: 'Hanna', fantasy; }
+
+#header li { font-family: 'Hanna', fantasy; }
+
+/*#lnb_area*/
+#main_icon > h2 { font-family: 'Hanna', fantasy; }
+
+#lnb_box li { font-family: 'Hanna', fantasy; }
+
+h2 { font-size: 2.3em; color: #fff; }
+
+#header { width: 100%; height: auto; clear: both; }
+
+#headBox { width: 960px; height: 100px; margin: 0 auto; }
+
+h1 { width: 300px; height: 100px; background-image: url(../../img/main/logo_h1.png); margin: 0 auto; background-size: 100%; background-repeat: no-repeat; background-position: 0; }
+
+h1 > a { display: block; width: 100%; height: 100%; }
+
+#unb { width: 110px; height: 50px; float: right; margin-top: -75px; }
+
+#unb select { width: 110px; height: 20px; margin-bottom: 10px; }
+
+#unb #search { width: 110px; height: 20px; float: left; border: none; border-bottom: 1px solid #373737; }
+
+#unb #search_img { width: 20px; height: 20px; margin-left: -20px; float: left; border: none; }
+
+.header_gnb { width: 100%; height: auto; background-color: #005fca; }
+
+#gnb { width: 800px; height: 50px; background-color: #005fca; margin: 0 auto; transition: all .3s ease-in; text-indent: 2em; position: relative; }
+
+#gnb:hover .gnb_menu { height: 300px; position: absolute; z-index: 1000; }
+
+#gnb::after { content: " "; display: block; position: absolute; width: 100vw; /* height: 300px; */ top: 50px; left: 50%; margin-left: -50vw; z-index: 150; background-color: #eee; height: 0; transition: all .3s ease-in; }
+
+#gnb:hover::after { height: 300px; z-index: 150; }
+
+#gnb > li { width: 200px; height: 100%; float: left; }
+
+#gnb > li > a { width: 100%; height: 100%; display: block; line-height: 50px; color: #fff; font-size: 1.3em; }
+
+#gnb > li:first-child ul { border-left: none; }
+
+#gnb > li > ul:hover { background-color: #ccc; }
+
+.gnb_menu { width: 200px; /*height: 300px; */ background-color: #eee; height: 0; overflow: hidden; transition: all .3s ease-in; }
+
+.gnb_menu { border-left: 1px solid #ccc; transition: all .3s ease-in; }
+
+.gnb_menu > li { padding-top: 10px; padding-bottom: 10px; }
+
+.gnb_menu > li:hover { background-color: #005fca; color: #fff; }
+
+.gnb_menu > li > a { width: 100%; height: 100%; display: block; }
+
+.gnb_menu > li > a:hover { width: 100%; height: 100%; display: block; background-color: #005fca; color: #fff; }
+
+/* base.css */
+/* ir기법적용 */
+.hidden { width: 0; height: 0; display: block; overflow: hidden; }
+
+.hidden_wrap a { width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-position: 0 0; }
+
+.hidden_wrap a > span { width: 0; height: 0; display: block; overflow: hidden; }
+
+/* clear:both 적용 */
+.clearfix:after, .cf:after { content: " "; display: block; clear: both; }
+
+/* table:sett */
+table { border: 2px solid #575757; border-left: 0; border-right: 0; }
+
+thead { background-color: #cfcfcf; }
+
+tbody td { border-top: 1px solid #575757; vertical-align: middle; text-indent: 3px; }
+
+tbody th { background-color: #cfcfcf; }
+
+/* nav last, first margin */
+.nav_fr li:first-child, .nav_la li:last-child { margin: 0; padding: 0; border: 0; }
+
+/* reset.css */
+/* basic */
+html, body { width: 100%; height: 100%; }
+
+html, body, h1, h2, h3, h4, h5, h6, p, div, form, fieldset, table, tr, td, th, thead, tbody, tfoot, img, ul, ol, li, dt, dd, dl { margin: 0; padding: 0; border: 0; outline: 0; color: #373737; font-size: 100%; line-height: 1.2; font-family: arial,'Nanum Gothic', sans-serif,'Hanna', fantasy; }
+
+/* set_1 */
+ul, ol, li { list-style: none; }
+
+a { text-decoration: none; color: inherit; }
+
+a:hover { color: #373737; }
+
+table, th, td { border-spacing: 0; border-collapse: collapse; }
+
+/* set_2: form */
+input, select, textarea { box-sizing: border-box; border: 1px solid #ccc; }
+
+button, input[type="button"], input[type="submit"], input[type="reset"] { border: 0; cursor: pointer; }
+
+/* focus */
+a:focus, input:focus, button:focus, textarea:focus, select:focus { outline: 3px solid #005fca; outline-offset: 5px; position: relative; z-index: 1000; }
+
+/* html5 */
+header, article, aside, footer, nav, figure, main, srcset { display: block; }
+
+/*header*/
+#header ul { font-family: 'Hanna', fantasy; }
+
+#header li { font-family: 'Hanna', fantasy; }
+
+/*#lnb_area*/
+#main_icon > h2 { font-family: 'Hanna', fantasy; }
+
+#lnb_box li { font-family: 'Hanna', fantasy; }
+
+h2 { font-size: 2.3em; color: #fff; }
+
+#footer { width: 100%; height: 100px; background-color: #263959; padding: 10px 0; box-sizing: border-box; }
+
+#footBox { width: 960px; height: 80px; background-color: #263959; margin: 0 auto; }
+
+#fnb { width: 600px; height: 16px; margin-bottom: 15px; }
+
+#fnb > li { width: auto; height: 100%; float: left; padding: 0 15px; border-left: 1px solid #fff; }
+
+#fnb > li:first-child { padding-left: 0; border-left: none; }
+
+#fnb > li > a { width: 100%; height: 100%; display: block; color: #fff; font-size: 0.7em; }
+
+#company_info { width: 500px; height: auto; font-style: normal; }
+
+#company_info > .add { float: left; font-size: 0.7em; color: #fff; margin-bottom: 3px; }
+
+#company_info > .tel { float: left; margin-right: 50px; font-size: 0.7em; color: #fff; margin-bottom: 3px; }
+
+#company_info > .fax { float: left; font-size: 0.7em; color: #fff; margin-bottom: 3px; }
+
+#company_info > #copy { float: left; font-size: 0.7em; color: #fff; }
+
+@keyframes bg_img { 0% { background-position: 0 0; opacity: 0; }
+  30% { opacity: 1; }
+  70% { background-position: 0 70%; }
+  100% { background-position: 0 48%; } }
+#lnb_area { width: 100%; height: 300px; }
+
+#main_img { animation: bg_img 20s ease 1 alternate; }
+
+#main_img { width: 100%; height: 300px; overflow: hidden; background-image: url(../../img/sub/lnb_img.png), url(../../img/sub/lnb_img_03.jpg); background-repeat: no-repeat; background-position: 0 48%; background-size: 100%; }
+#main_img #main_icon { width: 960px; height: 55px; margin: 0 auto; padding-top: 20px; }
+#main_img #main_icon img { width: 55px; height: 100%; float: left; }
+#main_img #main_icon h2 { float: left; line-height: 55px; text-indent: 20px; }
+
+#lnb_box { width: 960px; height: 50px; margin: 0 auto; background-color: #263959; margin-top: -50px; position: relative; z-index: 100; }
+#lnb_box li { width: 137px; height: 50px; float: left; color: #fff; text-align: center; line-height: 50px; transition: all .5s ease; }
+#lnb_box li:hover { background-color: #eee; color: #373737; }
+#lnb_box li:last-child { width: 138px; }
+#lnb_box li > a { width: 100%; height: 100%; display: block; }
+
+#content { width: 960px; height: auto; margin: 150px auto; }
+#content > h3 { font-size: 1.9em; font-family: 'Hanna', fantasy; }
+#content > p { font-size: 0.7em; margin-top: 10px; margin-bottom: 60px; }
+
+#table_info { width: 960px; height: 60px; border: 1px solid #eee; box-shadow: 5px 5px 10px #ccc; margin-bottom: 40px; padding: 20px; box-sizing: border-box; }
+#table_info > #total_content { width: 130px; height: 20px; float: left; }
+#table_info > #total_content > img { width: 18px; height: 20px; margin-right: 10px; float: left; }
+#table_info > form { width: 250px; height: 20px; float: right; }
+#table_info > form #title { width: 70px; float: left; margin-right: 10px; }
+#table_info > form #inner_search { width: 170px; height: 20px; float: left; }
+#table_info > form #inner_search_img { width: 18px; float: left; margin-left: -20px; border: none; margin-top: 1px; }
+
+#total_info { width: 960px; height: 550px; margin-bottom: 50px; border-top: 3px solid #373737; }
+
+#total_info > dt { width: 100%; height: 50px; background-color: #eee; }
+
+#total_info > dt > ul { width: 100%; height: 100%; }
+
+#total_info > dt > ul > li { width: 100px; height: 50px; float: left; text-align: center; padding: 15px 0; box-sizing: border-box; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+#total_info > dt > ul > li:nth-child(2) { width: 700px; height: 50px; }
+#total_info > dt > ul > li:nth-child(4) { width: 60px; height: 50px; border-right: none; }
+
+#total_info > dd { width: 960px; height: 500px; }
+
+#total_info > dd > ol { width: 960px; height: 500px; }
+
+#total_info > dd > ol > li { width: 100%; height: 50px; padding-top: 15px; box-sizing: border-box; border-bottom: 1px solid #ccc; }
+#total_info > dd > ol > li > span { width: 100px; height: 50px; display: block; float: left; text-align: center; margin-top: -15px; box-sizing: border-box; border-right: 1px solid #ccc; padding: 15px 0; }
+#total_info > dd > ol > li > a { width: 700px; height: 50px; display: block; float: left; text-align: center; margin-top: -15px; box-sizing: border-box; border-right: 1px solid #ccc; padding: 15px 0; }
+
+#total_info > dd > ol .table_visit_num { width: 60px; height: 50px; border-right: none; }
+
+#table_order { width: 298px; height: 20px; margin: 0 auto; margin-bottom: 200px; }
+#table_order > a { width: 30px; height: 100%; display: block; float: left; text-align: center; margin: 0 6px; }
+#table_order > a > img { width: 18px; height: 18px; }
+
+/*# sourceMappingURL=sub_03.css.map */
